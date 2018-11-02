@@ -1,0 +1,60 @@
+/*Navbar*/
+nav {
+    background-color: #F09B9B;
+    text-align: center;
+    height: 100px;
+    padding: 25px;
+}
+
+/*Tabs*/
+nav li {
+    display:inline-block;
+    width: 100px;
+    padding: 10px 0;
+    height: 50px;
+    transition: 0.5s ease;
+}
+nav li:hover {
+    border: 2px white solid;
+    background-color: #EF5350;
+    font-size: 18px;
+}
+nav li:hover a {
+    color: white;
+    text-decoration:none;
+}
+nav a {
+    color: #E53A35;
+}
+
+/*Buttons*/
+div.buttons {
+    text-align: center;
+    margin: 20px;
+}
+button {
+    padding: 5px 20px;
+    border: none;
+    border-radius: 10px;
+    background-color: grey;
+    color: white;
+    margin: 5px;
+}
+#b1 {
+    background-color: #65B6F7;
+}
+#b1:hover {
+    background-color: #2397F5;
+}
+#b2 {
+    background-color: #CE94D9;
+}
+#b2:hover {
+    background-color: #8E26AA;
+}
+#b3 {
+    background-color: #4EB7AD;
+}
+#b3:hover {
+    background-color: #019689;
+}
